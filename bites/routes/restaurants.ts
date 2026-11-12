@@ -2,7 +2,8 @@ import express from "express";
 
 const router = express.Router();
 
-router.get("/", (req, res) => {
-  res.send("List of cuisines");
+router.get("/", (_req, res) => {
+  res.send("List of restaurants");
 });
+
 export default router;
